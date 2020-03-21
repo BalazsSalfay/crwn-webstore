@@ -16,7 +16,7 @@ const StripeCheckoutButton = ({ price }) => {
       name='Balazs Salfay Photography'
       billingAddress
       shippingAddress
-      image='https://sendeyo.com/up/d/f3eb2117da'
+      image='https://drive.google.com/uc?export=download&id=1SwHgM87LF5QrZ9KJuy5mGhrZtinfxmnq'
       description={`Your total is €${price}`}
       amount={priceForStripe}
       panelLabel='Pay Now'

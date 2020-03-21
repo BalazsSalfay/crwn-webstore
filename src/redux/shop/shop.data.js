@@ -1,246 +1,276 @@
 const SHOP_DATA = {
-  hats: {
+  travel: {
     id: 1,
-    title: 'Hats',
-    routeName: 'hats',
+    title: 'Travel',
+    routeName: 'travel',
     items: [
       {
         id: 1,
-        name: 'Brown Brim',
-        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
+        name: 'Working alone',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1aLX17NGHyecFOPdl5K4avIg9-JeBql02',
         price: 25
       },
       {
         id: 2,
-        name: 'Blue Beanie',
-        imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
+        name: 'Skyscraper',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1xRdY7VFaA8RvlAC0FF2AEQHtObADuBgY',
         price: 18
       },
       {
         id: 3,
-        name: 'Brown Cowboy',
-        imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
+        name: 'Palm',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1Ndx52C3YZSj_IRRcd4ixsh1eSZvCTmCb',
         price: 35
       },
       {
         id: 4,
-        name: 'Grey Brim',
-        imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
+        name: 'Warm colors',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1BSPcjsgFN5znHDuNngWaWELcmCTDB8FR',
         price: 25
       },
       {
         id: 5,
-        name: 'Green Beanie',
-        imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
+        name: 'Siesta',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1XZ3H4kLaGZLM1mOe0cteNn4INF_2-JPf',
         price: 18
       },
       {
         id: 6,
-        name: 'Palm Tree Cap',
-        imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
-        price: 14
+        name: 'Caracole',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1F2Qxh6xuo9E4r1Rz32DnwwwX7JZVtsMQ',
+        price: 35
       },
       {
         id: 7,
-        name: 'Red Beanie',
-        imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
-        price: 18
+        name: 'Seaside',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1P1UkqCjGi48031y2v_d5U8W5YZpaurNS',
+        price: 25
       },
       {
         id: 8,
-        name: 'Wolf Cap',
-        imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
-        price: 14
-      },
-      {
-        id: 9,
-        name: 'Blue Snapback',
-        imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
-        price: 16
+        name: 'Tropical fruits',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1ie73S7X2my1Cs0cKo3DSSJ-oUCojEpYM',
+        price: 18
       }
     ]
   },
-  sneakers: {
+  people: {
     id: 2,
-    title: 'Sneakers',
-    routeName: 'sneakers',
+    title: 'People',
+    routeName: 'people',
     items: [
       {
-        id: 10,
-        name: 'Adidas NMD',
-        imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
+        id: 9,
+        name: 'Sorrow',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1_bjL_zkBK6ftynflhr3kzu1tS3Zr_oNy',
         price: 220
       },
       {
-        id: 11,
-        name: 'Adidas Yeezy',
-        imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
+        id: 10,
+        name: 'Knowledge first',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1yP5gK8kaJVFW_mGM1a8o3M7I_8DinPK5',
         price: 280
       },
       {
-        id: 12,
-        name: 'Black Converse',
-        imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
+        id: 11,
+        name: 'Summer activity',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1vIPjgnYuYvU4OERmPvmZVIyl8aHNOgiI',
         price: 110
       },
       {
+        id: 12,
+        name: 'Good to see you again',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1ldRBWpvf1T8oMi9SVReTIP-J2DBg06aU',
+        price: 160
+      },
+      {
         id: 13,
-        name: 'Nike White AirForce',
-        imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
+        name: 'Sunday walk',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1Zl55Mj6Z-1xv_9MeHzGzD_e7dNgGRFWM',
         price: 160
       },
       {
         id: 14,
-        name: 'Nike Red High Tops',
-        imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
-        price: 160
+        name: 'Ages',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1M6BGSrTjV6cAY9-znwyLKVFbvFDTKXJ1',
+        price: 110
       },
       {
         id: 15,
-        name: 'Nike Brown High Tops',
-        imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
+        name: 'Grimace',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1N88CMX6FWzQ1LI5dFZ27BdRVKsNk-o56',
         price: 160
       },
       {
         id: 16,
-        name: 'Air Jordan Limited',
-        imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
-        price: 190
-      },
-      {
-        id: 17,
-        name: 'Timberlands',
-        imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
-        price: 200
+        name: 'Sales boy',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1T6wPlro_n30dU-JHjNycByb8EGIosson',
+        price: 160
       }
     ]
   },
-  jackets: {
+  abstract: {
     id: 3,
-    title: 'Jackets',
-    routeName: 'jackets',
+    title: 'Abstract',
+    routeName: 'abstract',
     items: [
       {
-        id: 18,
-        name: 'Black Jean Shearling',
-        imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
+        id: 17,
+        name: 'Lights on',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1vyzO2DaxYA4RWfnmq3l7U_6h3mBr0wLH',
         price: 125
       },
       {
+        id: 18,
+        name: 'Evening road',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1BA7cpXeEiDI_ncwPMq98KWmHc1PwulYm',
+        price: 90
+      },
+      {
         id: 19,
-        name: 'Blue Jean Jacket',
-        imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
+        name: 'Handle',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1i2IaKvdxIGDRbZ_oFlQ10n1agSxFwsVJ',
         price: 90
       },
       {
         id: 20,
-        name: 'Grey Jean Jacket',
-        imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
-        price: 90
-      },
-      {
-        id: 21,
-        name: 'Brown Shearling',
-        imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
+        name: 'Breakthrough',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1Gt_kZLCGXnMj32aCVDXmj6BLbW-pp6FS',
         price: 165
       },
       {
+        id: 21,
+        name: 'Sand steps',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1u6wZvd_fOfYmeKXhQTUQuklYAwnMn9Fp',
+        price: 185
+      },
+      {
         id: 22,
-        name: 'Tan Trench',
-        imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
+        name: 'Window',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1IiHCYYdX3G82UNIffj_BK6ntou3OSHLd',
+        price: 90
+      },
+      {
+        id: 23,
+        name: 'Cyclimaniac',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1zzHzksaF_gRJ5G8h0_3q1vcnx-Q26iYR',
+        price: 165
+      },
+      {
+        id: 24,
+        name: 'Stucked',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=17fueG7H8wvryS1tq5aFizrXWeqHWqiPu',
         price: 185
       }
     ]
   },
-  womens: {
+  street: {
     id: 4,
-    title: 'Womens',
-    routeName: 'womens',
+    title: 'Street',
+    routeName: 'street',
     items: [
       {
-        id: 23,
-        name: 'Blue Tanktop',
-        imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
-        price: 25
-      },
-      {
-        id: 24,
-        name: 'Floral Blouse',
-        imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
-        price: 20
-      },
-      {
         id: 25,
-        name: 'Floral Dress',
-        imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
-        price: 80
+        name: 'Greenish',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1Xm1OKC0Gswq7geJ9VRuVOcSLJu-YjPgG',
+        price: 25
       },
       {
         id: 26,
-        name: 'Red Dots Dress',
-        imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
-        price: 80
+        name: 'Couple',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1I8PnLASDcYKsbMRf5EgmmxFODGpsrBUa',
+        price: 20
       },
       {
         id: 27,
-        name: 'Striped Sweater',
-        imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
-        price: 45
+        name: 'Mirroring',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1netGeffPnf1AAUsQqzQ27QtMESVnYZkc',
+        price: 80
       },
       {
         id: 28,
-        name: 'Yellow Track Suit',
-        imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
-        price: 135
+        name: 'Shadows & figure',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1a_Vvxd9NyJg2naYHojwTbtcHCqGs2SAj',
+        price: 80
       },
       {
         id: 29,
-        name: 'White Blouse',
-        imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
-        price: 20
-      }
-    ]
-  },
-  mens: {
-    id: 5,
-    title: 'Mens',
-    routeName: 'mens',
-    items: [
+        name: 'End of the day',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=10MPYOUpB3P4lfYeKUXN4YetnnFmURMKH',
+        price: 45
+      },
       {
         id: 30,
-        name: 'Camo Down Vest',
-        imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
-        price: 325
+        name: 'Arch',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1BCayT3KRw-yLbwUIn640mx96Hd-3EXbs',
+        price: 80
       },
       {
         id: 31,
-        name: 'Floral T-shirt',
-        imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
-        price: 20
+        name: 'Around the corner',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1P3oDuHS8ODek1UKzyXIcZjz1wUztzQNd',
+        price: 80
       },
       {
         id: 32,
-        name: 'Black & White Longsleeve',
-        imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
-        price: 25
-      },
+        name: 'Officer',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1aDg8k4SokvFgwhZkql0247MYjG4alkEi',
+        price: 45
+      }
+    ]
+  },
+  blackandwhite: {
+    id: 5,
+    title: 'Black & White',
+    routeName: 'blackandwhite',
+    items: [
       {
         id: 33,
-        name: 'Pink T-shirt',
-        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
-        price: 25
+        name: 'Barber',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1lkrW_09uLVjikbnjBgbRxtRe67CCbTab',
+        price: 325
       },
       {
         id: 34,
-        name: 'Jean Long Sleeve',
-        imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
-        price: 40
+        name: 'Hiker',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1knRcn0zcPscML9ngIf7Y3UjYLUIaNnHt',
+        price: 20
       },
       {
         id: 35,
-        name: 'Burgundy T-shirt',
-        imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
+        name: 'Under construction',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1RbSuleAbnDMXMxKUthBzH1YrQOZOGiJm',
         price: 25
+      },
+      {
+        id: 36,
+        name: 'Legend',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1Y7l20dGUFCHSUCzavfOvIPTU7DNnVPn9',
+        price: 25
+      },
+      {
+        id: 37,
+        name: 'Reflection',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1MP3QpuhOpTwSmzVlw26tozgNjaxFAChM',
+        price: 40
+      },
+      {
+        id: 38,
+        name: 'Relax',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1eVRvU2nyOc8NXr2n_G_WuTyobkW-0k4C',
+        price: 25
+      },
+      {
+        id: 39,
+        name: 'Self Time',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1kpBzXZOoU6VARdeoPCGAMI3oboho0PoT',
+        price: 25
+      },
+      {
+        id: 40,
+        name: 'Paparazzo',
+        imageUrl: 'https://drive.google.com/uc?export=download&id=1R9YYIgcx-Uhbg2wIoP4-BL0twi-guAv7',
+        price: 40
       }
     ]
   }

@@ -1,36 +1,36 @@
 const INITIAL_STATE = {
   sections: [
     {
-      title: 'hats',
-      imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+      title: 'travel',
+      imageUrl: 'https://drive.google.com/uc?export=download&id=10jjQXDftBq9U8O5GcQQor4kXDjkjFKMT',
       id: 1,
-      linkUrl: 'shop/hats'
+      linkUrl: 'shop/travel'
     },
     {
-      title: 'jackets',
-      imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+      title: 'people',
+      imageUrl: 'https://drive.google.com/uc?export=download&id=1b3pXxARm7V1rl4cCQmXxi44p6mNs0EsP',
       id: 2,
-      linkUrl: 'shop/jackets'
+      linkUrl: 'shop/people'
     },
     {
-      title: 'sneakers',
-      imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+      title: 'abstract',
+      imageUrl: 'https://drive.google.com/uc?export=download&id=1o_DpnXiZEfIVX40AuWU361u-inGizfz2',
       id: 3,
-      linkUrl: 'shop/sneakers'
+      linkUrl: 'shop/abstract'
     },
     {
-      title: 'womens',
-      imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+      title: 'street',
+      imageUrl: 'https://drive.google.com/uc?export=download&id=1N936XRYykoIL2an0iZhclo2q6AhFmhCj',
       size: 'large',
       id: 4,
-      linkUrl: 'shop/womens'
+      linkUrl: 'shop/street'
     },
     {
-      title: 'mens',
-      imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+      title: 'black & white',
+      imageUrl: 'https://drive.google.com/uc?export=download&id=1rTuYz5-G8ZxXtuZd2VVPN5a97FktLFrF',
       size: 'large',
       id: 5,
-      linkUrl: 'shop/mens'
+      linkUrl: 'shop/blackandwhite'
     }
   ]
 };
