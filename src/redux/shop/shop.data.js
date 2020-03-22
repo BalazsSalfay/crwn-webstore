@@ -221,7 +221,7 @@ const SHOP_DATA = {
   },
   blackandwhite: {
     id: 5,
-    title: 'Black & White',
+    title: 'Blackandwhite',
     routeName: 'blackandwhite',
     items: [
       {
