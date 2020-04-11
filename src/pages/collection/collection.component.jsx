@@ -6,6 +6,7 @@ import CollectionItem from './../../components/collection-item/collection-item.c
 import { CollectionPageContainer, TitleContainer, ItemsContainer } from './collection.stlyes';
 
 const CollectionPage = ({ collection }) => {
+
   const { title, items } = collection;
   return (
     <CollectionPageContainer>
