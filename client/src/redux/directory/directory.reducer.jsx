@@ -2,32 +2,32 @@ const INITIAL_STATE = {
   sections: [
     {
       title: 'travel',
-      imageUrl: 'https://drive.google.com/uc?export=download&id=10jjQXDftBq9U8O5GcQQor4kXDjkjFKMT',
+      imageUrl: 'https://res.cloudinary.com/cloudimagine/image/upload/v1587123418/bs-prints/20181105113833_IMG_1070_vwjovy.jpg',
       id: 1,
       linkUrl: 'shop/travel'
     },
     {
       title: 'people',
-      imageUrl: 'https://drive.google.com/uc?export=download&id=1b3pXxARm7V1rl4cCQmXxi44p6mNs0EsP',
+      imageUrl: 'https://res.cloudinary.com/cloudimagine/image/upload/v1587123417/bs-prints/_B090397-01_djgya2.jpg',
       id: 2,
       linkUrl: 'shop/people'
     },
     {
       title: 'abstract',
-      imageUrl: 'https://drive.google.com/uc?export=download&id=1o_DpnXiZEfIVX40AuWU361u-inGizfz2',
+      imageUrl: 'https://res.cloudinary.com/cloudimagine/image/upload/v1587123417/bs-prints/20190202163611_IMG_2657-01-02_lbarxk.jpg',
       id: 3,
       linkUrl: 'shop/abstract'
     },
     {
       title: 'street',
-      imageUrl: 'https://drive.google.com/uc?export=download&id=1N936XRYykoIL2an0iZhclo2q6AhFmhCj',
+      imageUrl: 'https://res.cloudinary.com/cloudimagine/image/upload/v1587123418/bs-prints/20181031123437_IMG_0180-01_y19tx2.jpg',
       size: 'large',
       id: 4,
       linkUrl: 'shop/street'
     },
     {
       title: 'black & white',
-      imageUrl: 'https://drive.google.com/uc?export=download&id=1rTuYz5-G8ZxXtuZd2VVPN5a97FktLFrF',
+      imageUrl: 'https://res.cloudinary.com/cloudimagine/image/upload/v1587123417/bs-prints/20190712185807_IMG_3334-01-01-01_mgqnug.jpg',
       size: 'large',
       id: 5,
       linkUrl: 'shop/blackandwhite'
